@@ -33,7 +33,7 @@ load_dotenv()
 
 console = Console()
 
-google_api_key = str("AIzaSyBeJrtkLEFTbBAzTIwxPf0ugiXnNXnF1eI")
+google_api_key = str("FF")
 genai.configure(api_key=google_api_key)
 
 img = PIL.Image.open('assets/aveH1.png')
